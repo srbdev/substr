@@ -8,7 +8,7 @@ Add the following to your project's `Cargo.toml` to include `substr` as a depend
 
 ```toml
 [dependencies]
-substr = { git = "https://github.com/srbdev/substr" }
+substrs = "0.1.0"
 ```
 <br /> 
 
