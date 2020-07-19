@@ -2,13 +2,13 @@
 name = "substr"
 version = "0.1.0"
 authors = ["srbdev"]
-license = ""
-description = ""
-readme = ""
-homepage = ""
-repository = ""
-keywords = []
-categories = []
+license = "MIT"
+description = "A crate for substring functionality for the str type in Rust"
+readme = "README.md"
+homepage = "https://github.com/srbdev/substr"
+repository = "https://github.com/srbdev/substr"
+keywords = ["str", "substr", "substring", "string"]
+categories = ["parsing", "text-processing"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
