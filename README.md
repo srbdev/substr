@@ -1,11 +1,16 @@
 # substr
 
-A helper crate for substring functionality for Rust's `str`.
+A helper crate for substring functionality for Rust's `str` type.
+
+### Usage
+
+Add the following to your project's `Cargo.toml` to include `substr` as a dependencie.
 
 ```toml
 [dependencies]
 substr = { git = "https://github.com/srbdev/substr" }
 ```
+<br /> 
 
 #### ```fn firstn(s: &str, n: usize) -> &str```
 
@@ -19,6 +24,8 @@ Returns the last nth characters from the input string `s`.
 
 Return the substring of the input string `s` with indices [start, end).
 
+<br />
+<br /> 
 
 ***Note: `substr` will only work on UTF-8 sequences or may otherwise reference invalid memory or
 violate the invariants communicated by the `str` type.***
