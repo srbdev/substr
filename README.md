@@ -4,7 +4,14 @@ A helper crate for substring functionality for Rust's `str` type.
 
 ### Usage
 
-Add the following to your project's `Cargo.toml` to include `substr` as a dependencie.
+Add the following to your project's `Cargo.toml` to include `substr` as a dependency from GitHub:
+
+```toml
+[dependencies]
+substr = { git = "https://github.com/srbdev/substr" }
+```
+
+or from [crates.io](https://crates.io/):
 
 ```toml
 [dependencies]
