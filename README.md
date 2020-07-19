@@ -1,5 +1,7 @@
 # substr
 
+![Rust](https://github.com/srbdev/substr/workflows/Rust/badge.svg?branch=master&event=push)
+
 A helper crate for substring functionality for Rust's `str` type.
 
 ### Usage
